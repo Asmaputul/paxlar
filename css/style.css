@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-header{
+    background: #efefef;
+    padding: 10px 0;
+
+}
+.top-header p{
+    font-size: 12px;
+    color: #7f7f7f;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-header ul{
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.top-header ul li{
+
+}
+.top-header ul li a{
+    font-size: 12px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+
+}
+.navbar{
+    padding:15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #f78f2f;
+    border-color: #f78f2f;
+    border-radius: 50px;
+    font-size: 12px !important;
+    font-weight: 500;
+}
+.btn-primary:hover{
+    background-color: #fdc389;
+    border-color:#fdc389 ;
+}
+.banner{
+    background-image: url(../image/banner-image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.banner .row{
+    min-height: 500px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.banner ul{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 15px 0;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.banner ul li{
+
+}
+.banner ul li h5{
+     font-weight: 700;
+
+}
+.banner ul li h6{
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+.btn-transparent{
+    background-color: transparent;
+    margin-left: 15px;
+    padding: 5px 20px;
+    border-color: rgb(184, 179, 179);
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.btn-primary{
+    padding: 5px 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
